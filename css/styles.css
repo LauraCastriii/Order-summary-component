@@ -1,0 +1,138 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: rgb(233, 233, 233);
+	font-family: 'Red Hat Display', sans-serif;
+	background-image: url("pattern-background-desktop.svg");
+	background-color: hsl(225, 100%, 94%);
+}
+
+/*Card
+	The card is placed in the center, with various styles such as a rounded edge, color*/
+.card {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 50px 320px 25px 560px;
+	width: 340px;
+	position: relative;
+	padding: 150px 15px 15px 15px;
+	border-radius: 30px;
+	background-color: hsl(225, 100%, 98%);
+}
+
+/*Bold font*/
+.content-title h2, #btnPayment, #btnCancel {
+	font-weight: bold;
+}
+
+/*We place the cover image above the other elements to place it at the top of the card*/
+.cover-img {
+	position: absolute;
+	margin-bottom: 400px;
+}
+
+/*rounded to cover image*/
+#cover-img {
+	width: 370px;
+	margin-bottom: 140px;
+	border-top-left-radius: 30px;
+	border-top-right-radius: 30px;
+}
+
+.content {
+	text-align: center;
+}
+
+.content-title {
+	font-size: 16px;
+	margin: 50px 0 10px 0;
+}
+
+.content-descr {
+	width: 300px;
+	text-align: center;
+	margin-left: 8px;
+	color: hsl(224, 23%, 55%);
+}
+
+.content-plan {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 315px;
+	height: 90px;
+	background-color: rgba(191, 206, 255, 0.151);
+	margin: 20px 0 20px 0;
+	border-radius: 15px;
+	font-size: 13px;
+}
+
+/*we place the icon and information about the plan on the left side of the div*/
+.icon-plan, .content-price {
+	float: left;
+	margin: 7px 5px 0 7px;
+}
+
+.content-price p {
+	float: left;
+}
+
+.content-change a{
+	margin-left: 70px;
+	color: hsl(245, 75%, 52%);
+}
+
+.content-change a:hover {
+	color: hsl(225, 100%, 65%);
+}
+
+/*Styles of buttons*/
+#btnPayment {
+	width: 315px;
+	padding: 15px;
+	border-radius: 10px;
+	background-color: hsl(245, 75%, 52%);
+	border: 0;
+	margin: 10px 0 20px 0;
+	color: white;
+}
+
+#btnCancel {
+	width: 315px;
+	padding: 15px;
+	margin: 0 0 15px 0;
+	border-radius: 10px;
+	border: 0;
+	color: hsl(224, 23%, 55%);
+	background-color: rgba(233, 233, 233, 0.705);
+}
+
+#btnPayment:hover, #btnCancel:hover {
+	transform: scaleX(1.02);
+}
+
+#btnPayment:hover {
+	background-color: hsl(225, 100%, 65%);
+}
+
+#btnCancel:hover {
+	color: hsl(223, 47%, 23%);
+}
+
+.attribution { 
+	font-size: 12px; 
+	text-align: center; 
+	font-family: 'Red Hat Display', sans-serif;
+}
+
+.attribution a { 
+	color: hsl(228, 75%, 52%);
+}
+
+.attribution a:hover {
+	color: hsl(223, 47%, 23%);
+}
