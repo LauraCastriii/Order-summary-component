@@ -12,7 +12,7 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 
 ### Screenshot
 
-![screenshot solution](images/screenshot.PNG)
+![screenshot solution](../design/screenshot.PNG)
 
 Screenshot of the solution of this challenge
 
